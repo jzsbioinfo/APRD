@@ -1,0 +1,18 @@
+Package: APRD
+Title: calcualate growth rate and fluorescence expression Biotek
+Version: 0.0.0
+Authors@R: 
+    person(given = "Zhisheng",
+           family = "Jiang",
+           role = c("aut", "cre"),
+           email = "zhishengjiang1997@gmail.com",
+           comment = c(ORCID = "0000-0002-1271-7995"))
+Description: A function use output of plate reader to caluclate growth rate, if have fluorescence data, it can also calculate fluorescence expression level according to the method of (Keren, Zackay et al. 2013. Fluorescence Protein expression per cell per second).
+License: `use_gpl3_license()`
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Author: Zhisheng Jiang [aut, cre]
+Maintainer: Zhisheng Jiang <zhishengjiang1997@gmail.com>
+Date/Publication: 2020-12-13 12:12:12 UTC
