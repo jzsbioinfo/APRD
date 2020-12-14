@@ -2,6 +2,12 @@
  APRD is an R package that caluclate growth rate using sliding window method. The package takes data from plate reader as input and return figures and excel file as output, it can process data from 96well plate or 384well plate. If fluorescence data is provided, it can also calculate fluorescence expression level according to the method of (Keren, Zackay et al. 2013. Fluorescence Protein expression per cell per second).
 
 
+## How to download this package?
+```
+options(download.file.method = "libcurl")
+devtools::install_github("jzsbioinfo/APRD")
+```
+
 ## Usage:
 ```
 growth_rate_and_expression(inputfile, skip_num, plate,
